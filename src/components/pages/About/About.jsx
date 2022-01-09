@@ -3,27 +3,18 @@ import { Col } from 'react-grid-system';
 import { PersonalData, Services } from 'src/utils/dbTemp';
 import { useTranslation } from 'react-i18next';
 import { gaSendEvent } from 'src/config/google';
+import { PROFILE_PICTURE, PDF_RESUME_EN, PDF_RESUME_ES } from 'src/constants/firebase';
 import Landing from 'src/components/layouts/Landing';
 import ButtonPrimary from 'src/components/common/ButtonPrimary';
 import ModalBasic from 'src/components/common/Modal';
 import useModal from 'use-react-modal';
 import Section from 'src/components/layouts/Section';
 import CardService from 'src/components/common/Card/CardService';
-import resumeSpanish from 'src/assets/file/Juan Diego Salas Jimenez - es.pdf';
-import resumeEnglish from 'src/assets/file/Juan Diego Salas Jimenez - en.pdf';
-import photo from 'src/assets/img/profile/jdsj.webp';
 import './About.scss';
 
 const About = () => {
   const { t } = useTranslation();
   const { isOpen, openModal, closeModal, Modal } = useModal(initialModalState);
-
-  const openResume = (lang = 'es') => {
-    let filePath = { es: resumeSpanish, en: resumeEnglish };
-    window.open(filePath[lang]);
-    gaSendEvent({ category: 'clicks', action: `Download: (${lang}) resume` });
-    closeModal();
-  };
 
   const handleOpenModal = (event) => {
     openModal(event);
@@ -35,7 +26,7 @@ const About = () => {
       <Section title={'ABOUT.title.2'}>
         <Col lg={6}>
           <div className="section-content__avatar">
-            <img src={photo} alt="Juan Diego Salas Jimenez" title="Juan Diego Salas Jimenez" />
+            <img src={PROFILE_PICTURE} alt="Juan Diego Salas Jimenez" title="Juan Diego Salas Jimenez" />
           </div>
         </Col>
         <Col lg={6}>
@@ -56,8 +47,12 @@ const About = () => {
             <ButtonPrimary type="button" content={`${t('ABOUT.downloadResume.1')}`} onClick={handleOpenModal} />
             <ModalBasic isOpen={isOpen} closeModal={closeModal} Modal={Modal} btnClose={false}>
               <div className="resumes">
-                <ButtonPrimary content={`${t('ABOUT.downloadResume.es')}`} onClick={() => openResume('es')} />
-                <ButtonPrimary content={`${t('ABOUT.downloadResume.en')}`} onClick={() => openResume('en')} />
+                <a href={PDF_RESUME_ES} aria-label="resume in spanish" download>
+                  <ButtonPrimary content={`${t('ABOUT.downloadResume.es')}`} />
+                </a>
+                <a href={PDF_RESUME_EN} aria-label="resume in english" download>
+                  <ButtonPrimary content={`${t('ABOUT.downloadResume.en')}`} />
+                </a>
               </div>
             </ModalBasic>
           </div>

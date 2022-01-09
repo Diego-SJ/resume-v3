@@ -58,28 +58,98 @@ export const Services = [
 
 // * INFO RESUME PAGE
 export const Skills = [
-  { id: uuidv4(), title: 'React', percentage: '90', src: 'src/assets/img/svg/react.svg' },
-  { id: uuidv4(), title: 'Next', percentage: '80', src: 'src/assets/img/svg/next.svg', light: true },
-  { id: uuidv4(), title: 'Typescript', percentage: '80', src: 'src/assets/img/svg/typescript.svg' },
-  { id: uuidv4(), title: 'Javascript', percentage: '90', src: 'src/assets/img/svg/javascript.svg' },
-  { id: uuidv4(), title: 'Graphql', percentage: '80', src: 'src/assets/img/svg/Graphql.svg' },
-  { id: uuidv4(), title: 'Redux', percentage: '80', src: 'src/assets/img/svg/redux.svg' },
-  { id: uuidv4(), title: 'Git', percentage: '90', src: 'src/assets/img/svg/git.svg' },
-  { id: uuidv4(), title: 'Sass', percentage: '80', src: 'src/assets/img/svg/sass.svg' },
-  { id: uuidv4(), title: 'HTML', percentage: '90', src: 'src/assets/img/svg/html.svg' },
-  { id: uuidv4(), title: 'Css', percentage: '90', src: 'src/assets/img/svg/css.svg' },
-  { id: uuidv4(), title: 'Express', percentage: '80', src: 'src/assets/img/svg/expressjs.svg', light: true },
-  { id: uuidv4(), title: 'Node', percentage: '80', src: 'src/assets/img/svg/node.svg' },
-  { id: uuidv4(), title: 'Figma', percentage: '80', src: 'src/assets/img/svg/figma.svg' },
-  { id: uuidv4(), title: 'Firebase', percentage: '80', src: 'src/assets/img/svg/firebase.svg' },
-  { id: uuidv4(), title: 'Styled components', percentage: '80', src: 'src/assets/img/svg/styled-components.svg' },
-  // { id: uuidv4(), title: 'SCRUM', percentage: '90' },
-  // { id: uuidv4(), title: 'PHP', percentage: '70' },
-  // { id: uuidv4(), title: 'PYTHON', percentage: '40' },
-  // { id: uuidv4(), title: 'C++', percentage: '30' },
-  // { id: uuidv4(), title: 'C#', percentage: '40' },
-  // { id: uuidv4(), title: 'JAVA', percentage: '80' },
-  // { id: uuidv4(), title: 'SQL', percentage: '80' },
+  {
+    id: uuidv4(),
+    title: 'React',
+    percentage: '90',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Freact.svg?alt=media&token=f7d71823-8896-4783-8ea0-297ca6029460',
+  },
+  {
+    id: uuidv4(),
+    title: 'Next',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fnext.svg?alt=media&token=b9d90e80-32a8-415a-a33a-a012d89e04db',
+    light: true,
+  },
+  {
+    id: uuidv4(),
+    title: 'Typescript',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fnext.svg?alt=media&token=b9d90e80-32a8-415a-a33a-a012d89e04db',
+  },
+  {
+    id: uuidv4(),
+    title: 'Javascript',
+    percentage: '90',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fjavascript.svg?alt=media&token=516f1670-f175-4342-90e8-6e412c464a46',
+  },
+  {
+    id: uuidv4(),
+    title: 'Graphql',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fgraphql.svg?alt=media&token=746df06c-bf4b-4a04-a7aa-e33e32c8affe',
+  },
+  {
+    id: uuidv4(),
+    title: 'Redux',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fredux.svg?alt=media&token=4ce1f28d-484f-4291-83b4-81f94a8ea4a5',
+  },
+  {
+    id: uuidv4(),
+    title: 'Git',
+    percentage: '90',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fgit.svg?alt=media&token=fcc60141-6f40-42fd-8bd7-84fc94a7d238',
+  },
+  {
+    id: uuidv4(),
+    title: 'Sass',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fsass.svg?alt=media&token=52c3719b-c18b-46f1-93d3-8de7b8567a3a',
+  },
+  {
+    id: uuidv4(),
+    title: 'HTML',
+    percentage: '90',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fhtml.svg?alt=media&token=d3e27dc7-58a5-4c81-9130-4e27b1cc9ed2',
+  },
+  {
+    id: uuidv4(),
+    title: 'Css',
+    percentage: '90',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fcss.svg?alt=media&token=b1ad80fe-fc7d-4d59-b5f0-1def14d90f7e',
+  },
+  {
+    id: uuidv4(),
+    title: 'Express',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fexpressjs.svg?alt=media&token=09ed6832-22dd-485d-b3cd-68f701a36761',
+    light: true,
+  },
+  {
+    id: uuidv4(),
+    title: 'Node',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fnode.svg?alt=media&token=6824bbe7-7248-4348-abf4-31960189d8b6',
+  },
+  {
+    id: uuidv4(),
+    title: 'Figma',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Ffigma.svg?alt=media&token=8bceba1b-7201-4e93-871e-011ba8d99045',
+  },
+  {
+    id: uuidv4(),
+    title: 'Firebase',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Ffirebase.svg?alt=media&token=e97501b7-b136-4e89-bda1-daeb879edf1b',
+  },
+  {
+    id: uuidv4(),
+    title: 'Styled components',
+    percentage: '80',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fstyled-components.svg?alt=media&token=5188bb8b-c7f3-484c-9f4b-7124366bf489',
+  },
 ];
 
 export const Education = [
@@ -221,74 +291,44 @@ export const Recognitions = [
 export const PortfolioInfo = [
   {
     id: uuidv4(),
-    image: `src/assets/img/portfolios/save365.webp`,
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fsave365.webp?alt=media&token=0b63e9d4-5793-4546-a749-fd4e2a9c6a4f',
     link: 'https://save365.netlify.app/',
     title: 'PORTFOLIO.ITEM.17.title',
     description: 'PORTFOLIO.ITEM.17.description',
   },
-  // {
-  //   id: uuidv4(),
-  //   image: `src/assets/img/portfolios/awl.webp`,
-  //   link: 'https://linuspauling2.000webhostapp.com/awl/',
-  //   title: 'PORTFOLIO.ITEM.2.title',
-  //   description: 'PORTFOLIO.ITEM.2.description',
-  // },
   {
     id: uuidv4(),
-    image: `src/assets/img/portfolios/cvra.webp`,
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fcvra.webp?alt=media&token=a3b0f0e4-3812-4ed6-8ea8-6d2a9243d2ca',
     link: 'https://github.com/Diego-SJ/resume-v3',
     title: 'PORTFOLIO.ITEM.11.title',
     description: 'PORTFOLIO.ITEM.11.description',
   },
   {
     id: uuidv4(),
-    image: 'src/assets/img/portfolios/natours.webp',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fnatours.webp?alt=media&token=ec49ca73-d63a-4079-9539-87e16a286fe1',
     link: 'https://diego-sj.github.io/Natours-With-Sass/',
     title: 'PORTFOLIO.ITEM.3.title',
     description: 'PORTFOLIO.ITEM.3.description',
   },
-  // {
-  //   id: uuidv4(),
-  //   image: `require('../assets/img/portfolios/empsch.webp')`,
-  //   link: 'https://prueba-tecnica-habil.netlify.app/',
-  //   title: 'PORTFOLIO.ITEM.5.title',
-  //   description: 'PORTFOLIO.ITEM.5.description',
-  // },
   {
     id: uuidv4(),
-    image: 'src/assets/img/portfolios/pokedex.webp',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fpokedex.webp?alt=media&token=c71c5595-f802-48d5-ac76-8aa3104246de',
     link: 'https://pokedex-rd.netlify.app/',
     title: 'PORTFOLIO.ITEM.16.title',
     description: 'PORTFOLIO.ITEM.16.description',
   },
   {
     id: uuidv4(),
-    image: 'src/assets/img/portfolios/rickmortyredux.webp',
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Frickmortyredux.webp?alt=media&token=cb8cf025-81af-4523-aba0-6ca298fa6266',
     link: 'https://rickandmorty-redux-graphql.netlify.app/',
     title: 'PORTFOLIO.ITEM.15.title',
     description: 'PORTFOLIO.ITEM.15.description',
   },
-  // {
-  //   id: uuidv4(),
-  //   image: `require('../assets/img/portfolios/ecowatering.webp')`,
-  //   link: 'https://ecowateringplants.000webhostapp.com/ecowateringplants.com/',
-  //   title: 'PORTFOLIO.ITEM.1.title',
-  //   description: 'PORTFOLIO.ITEM.1.description',
-  // },
-  // {
-  //   id: uuidv4(),
-  //   image: `require('../assets/img/portfolios/fixstone.webp')`,
-  //   link: 'https://diego-sj.github.io/Fixstone-Website/',
-  //   title: 'PORTFOLIO.ITEM.8.title',
-  //   description: 'PORTFOLIO.ITEM.8.description',
-  // },
-  // {
-  //   id: uuidv4(),
-  //   image: `require('../assets/img/portfolios/egcp.webp')`,
-  //   link: null,
-  //   title: 'PORTFOLIO.ITEM.14.title',
-  //   description: 'PORTFOLIO.ITEM.14.description',
-  // },
 ];
 
 // * INFO CONTACT PAGE

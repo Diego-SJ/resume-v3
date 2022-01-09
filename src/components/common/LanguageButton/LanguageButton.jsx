@@ -3,8 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useSelector, useDispatch } from 'react-redux';
 import { switchLanguageAction } from 'src/redux/appSlice';
 import { LAN_EN, SPANISH, ENGLISH } from 'src/constants/strings';
-import MexicanFlag from 'src/assets/img/language/es.webp';
-import UsaFlag from 'src/assets/img/language/en.webp';
+import { MX_FLAG, USA_FLAG } from 'src/constants/firebase';
 
 import './LanguageButton.scss';
 
@@ -23,7 +22,7 @@ export default function LanguageButton() {
 
   return (
     <button aria-label="languageButton" className="language" onClick={onClick}>
-      <div style={{ backgroundImage: `url(${language === LAN_EN ? MexicanFlag : UsaFlag})` }} />
+      <div style={{ backgroundImage: `url(${language === LAN_EN ? MX_FLAG : USA_FLAG})` }} />
       <span>{language === LAN_EN ? SPANISH : ENGLISH}</span>
     </button>
   );
