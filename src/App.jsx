@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy } from 'react';
 import { useLocation } from 'react-router-dom';
 import { ToastProvider } from 'react-toast-notifications';
 import { gaSendPageview } from './config/google';
 import './sass/main.scss';
-const Routing = React.lazy(() => import('./routes'));
-const LanguageButton = React.lazy(() => import('./components/common/LanguageButton'));
-const ParticlesBg = React.lazy(() => import('particles-bg'));
+const Routing = lazy(() => import('./routes'));
+const LanguageButton = lazy(() => import('./components/common/LanguageButton'));
+const ParticlesBg = lazy(() => import('particles-bg'));
 
 function App() {
   const location = useLocation();

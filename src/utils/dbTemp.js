@@ -1,6 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
 import { differenceInYears } from 'date-fns';
-import ReactSvg from 'src/assets/img/svg/react.svg';
 
 // * INFO ABOUT PAGE
 export const PersonalData = [

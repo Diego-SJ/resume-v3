@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react';
+import React, { Suspense, StrictMode } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { initializeGA } from './config/google';
@@ -24,10 +24,10 @@ const WithRedux = () => (
 );
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StrictMode>
     <Suspense fallback={<Loader />}>
       <WithRedux />
     </Suspense>
-  </React.StrictMode>,
+  </StrictMode>,
   document.getElementById('root')
 );
