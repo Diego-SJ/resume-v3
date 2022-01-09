@@ -1,0 +1,28 @@
+@import 'src/sass/main.scss';
+
+.header {
+  &__user {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 50rem;
+    border: 5px solid $gray;
+    overflow: hidden;
+    padding: -10px;
+
+    @media only screen and (max-width: $bp-xs) {
+      width: 23rem;
+      height: 23rem;
+    }
+  }
+
+  &__photo {
+    width: 130%;
+    height: 130%;
+    display: block;
+  }
+}
+
+.load {
+  transition: background-image 2s;
+  animation: loading 2s ease-in-out infinite;
+}

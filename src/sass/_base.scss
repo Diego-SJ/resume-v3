@@ -1,0 +1,61 @@
+@import './variables';
+@import './animations';
+
+* {
+  margin: 0;
+  padding: 0;
+  &:focus {
+    outline: 0;
+  }
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none !important;
+}
+
+html {
+  font-size: 62.5%; // 1rem  = 10px
+
+  @media only screen and (max-width: $bp-s) {
+    font-size: 55%; // 8px
+  }
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Manrope' !important;
+  font-weight: normal;
+}
+
+.container {
+  background-color: $dark;
+  display: flex;
+  position: relative;
+  height: 100vh;
+  min-height: 100vh;
+  overflow: auto;
+  z-index: 0;
+}
+
+.mt-1 {
+  margin-top: 1rem !important;
+}
+
+.mt-2 {
+  margin-top: 1rem !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-none {
+  display: none !important;
+}

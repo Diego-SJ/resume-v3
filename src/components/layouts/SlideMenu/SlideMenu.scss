@@ -1,0 +1,96 @@
+@import 'src/sass/main.scss';
+
+.sidebar {
+  background-color: $dark;
+  border-right: $border-2p;
+  flex: 0 0 250px;
+  height: 100%;
+  transition: all 0.3s;
+
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (max-width: $bp-lg) {
+    position: absolute;
+    width: 250px;
+    top: 0;
+    left: -250px;
+    z-index: 99;
+    animation: navbarMoveToLeft 0.4s;
+  }
+
+  & > .btn-show-menu {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    display: none;
+
+    @media only screen and (max-width: $bp-lg) {
+      display: block;
+      cursor: pointer !important;
+    }
+
+    top: -2px;
+    right: -5rem;
+
+    & > button {
+      border: none;
+      background-color: $gray-dark;
+      border: $border-2p;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.2s;
+
+      & .icon {
+        width: 2rem;
+        height: 2rem;
+        color: $light;
+      }
+
+      &:hover {
+        background-color: $primary;
+      }
+    }
+  }
+}
+
+.show {
+  left: 0;
+}
+
+.header {
+  padding: 2rem 1rem;
+  display: grid;
+  place-content: center;
+  border-bottom: $border-2p;
+
+  @media only screen and (max-width: $bp-xs) {
+    padding: 4rem 0rem;
+  }
+}
+
+.side-bar {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  list-style: none;
+  padding: 0rem;
+  display: grid;
+  place-content: center;
+
+  @media only screen and (max-width: $bp-xs) {
+    font-size: 2.2rem;
+  }
+}
+
+.legal {
+  border-top: $border-2p;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  color: $secondary;
+}

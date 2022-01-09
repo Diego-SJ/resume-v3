@@ -1,0 +1,48 @@
+@import 'src/sass/main.scss';
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
+  height: 5rem;
+  border: none;
+  letter-spacing: 0.3rem;
+  font-size: 1.5rem;
+  padding: 1.5rem 4rem;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  border-radius: $br-default;
+  background-color: $primary;
+  color: $light !important;
+  text-decoration: none !important;
+  outline: none !important;
+  cursor: pointer;
+
+  &:hover,
+  &:disabled {
+    transform: translateY(-0.4rem);
+    background-color: rgba($primary, 0.7);
+    box-shadow: 0 0 2rem rgba(#000, 0.3);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  & .btn-primary__loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & svg {
+      height: 3.5rem;
+      color: $light;
+      animation: turn360 1.2s linear infinite;
+    }
+  }
+}
