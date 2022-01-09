@@ -75,13 +75,13 @@ export const Skills = [
     id: uuidv4(),
     title: 'Typescript',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fnext.svg?alt=media&token=b9d90e80-32a8-415a-a33a-a012d89e04db',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Ftypescript.svg?alt=media&token=2afa083f-4aea-42a1-9dff-7b24e926d2c6',
   },
   {
     id: uuidv4(),
     title: 'Javascript',
     percentage: '90',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Ftypescript.svg?alt=media&token=2afa083f-4aea-42a1-9dff-7b24e926d2c6',
+    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fjavascript.svg?alt=media&token=516f1670-f175-4342-90e8-6e412c464a46',
   },
   {
     id: uuidv4(),
