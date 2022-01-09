@@ -1,11 +1,17 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import i18nResources from 'vite-plugin-i18n-resources';
+import react from '@vitejs/plugin-react-refresh';
 import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    i18nResources({
+      path: path.resolve(__dirname, './locales'),
+    }),
+  ],
   resolve: {
-    alias: [{ find: 'src', replacement: path.resolve(__dirname, 'src') }]
-  }
+    alias: [{ find: 'src', replacement: path.resolve(__dirname, 'src') }],
+  },
 });

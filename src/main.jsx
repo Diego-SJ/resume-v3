@@ -1,8 +1,8 @@
+import ReactDOM from 'react-dom';
 import React, { Suspense, StrictMode } from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { initializeGA } from './config/google';
-import ReactDOM from 'react-dom';
 import Loader from './components/layouts/Loader';
 import Paths from './routes/paths';
 import store from './redux/store';
