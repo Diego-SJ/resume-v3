@@ -37,6 +37,7 @@
   & > h1 {
     max-width: 30ch;
     text-align: center !important;
+    line-height: 1;
   }
 
   @media only screen and (max-width: $bp-m) {
