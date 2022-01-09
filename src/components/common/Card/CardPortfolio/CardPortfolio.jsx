@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { Col } from 'react-grid-system';
 import { useTranslation } from 'react-i18next';
 import { gaSendEvent } from 'src/config/google';

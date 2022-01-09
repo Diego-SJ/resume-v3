@@ -1,3 +1,4 @@
+import React from 'react';
 import TitleSection from 'src/components/common/TitleSection';
 import { Container, Row } from 'react-grid-system';
 import './Section.scss';

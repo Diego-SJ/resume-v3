@@ -1,3 +1,4 @@
+import React from 'react';
 import './Modal.scss';
 
 const Modal = ({ children, isOpen, closeModal, Modal, btnClose = true }) => {

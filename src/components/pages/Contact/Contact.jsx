@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col } from 'react-grid-system';
 import { ContactInfo } from 'src/utils/dbTemp';
 import Landing from 'src/components/layouts/Landing';

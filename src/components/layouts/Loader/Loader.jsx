@@ -1,3 +1,4 @@
+import React from 'react';
 import Icon from 'src/components/common/Icon';
 import './Loader.scss';
 

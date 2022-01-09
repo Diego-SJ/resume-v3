@@ -1,4 +1,4 @@
-import { memo } from 'react';
+import React, { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSelector, useDispatch } from 'react-redux';
 import { handleMenuVisibility } from 'src/redux/appSlice';
@@ -7,7 +7,6 @@ import ProfilePicture from 'src/components/common/ProfilePicture';
 import SidemenuItem from 'src/components/common/SidemenuItem';
 import Icon from 'src/components/common/Icon';
 import Paths from 'src/routes/paths';
-
 import './SlideMenu.scss';
 
 const SlideMenu = () => {

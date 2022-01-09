@@ -1,3 +1,4 @@
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Icon from 'src/components/common/Icon';
 import './CardContact.scss';

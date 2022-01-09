@@ -1,3 +1,4 @@
+import React from 'react';
 import { Row, Col } from 'react-grid-system';
 import { useTranslation } from 'react-i18next';
 

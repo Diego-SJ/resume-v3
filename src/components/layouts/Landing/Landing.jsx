@@ -1,3 +1,4 @@
+import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { handleMenuVisibility } from 'src/redux/appSlice';
 import './Landing.scss';

@@ -1,4 +1,4 @@
-import { useState, memo } from 'react';
+import React, { useState, memo } from 'react';
 import { Link } from 'react-router-dom';
 import Paths from 'src/routes/paths';
 import photo from 'src/assets/img/profile/jdsj.webp';

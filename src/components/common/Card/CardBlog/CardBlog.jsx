@@ -1,3 +1,4 @@
+import React from 'react';
 import { format } from 'date-fns';
 import { Col } from 'react-grid-system';
 import './CardBlog.scss';

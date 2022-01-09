@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col } from 'react-grid-system';
 import { PersonalData, Services } from 'src/utils/dbTemp';
 import { useTranslation } from 'react-i18next';

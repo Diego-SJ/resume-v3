@@ -1,3 +1,4 @@
+import React from 'react';
 import { PortfolioInfo } from 'src/utils/dbTemp';
 import Landing from 'src/components/layouts/Landing';
 import Section from 'src/components/layouts/Section';

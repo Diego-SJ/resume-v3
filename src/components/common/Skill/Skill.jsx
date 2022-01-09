@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col } from 'react-grid-system';
 import './Skill.scss';
 
