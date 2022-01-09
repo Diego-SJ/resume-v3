@@ -7,7 +7,6 @@ import Loader from './components/layouts/Loader';
 import Paths from './routes/paths';
 import store from './redux/store';
 import App from './App';
-import './config/i18n';
 
 initializeGA();
 

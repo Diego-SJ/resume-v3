@@ -8,10 +8,12 @@ export default defineConfig({
   plugins: [
     react(),
     i18nResources({
-      path: path.resolve(__dirname, './locales'),
+      path: path.resolve(__dirname, './public/locales'),
     }),
   ],
   resolve: {
-    alias: [{ find: 'src', replacement: path.resolve(__dirname, 'src') }],
+    alias: [
+      { find: 'src', replacement: path.resolve(__dirname, 'src') },
+    ],
   },
 });
