@@ -3,7 +3,7 @@ import { Col } from 'react-grid-system';
 import { PersonalData, Services } from 'src/utils/dbTemp';
 import { useTranslation } from 'react-i18next';
 import { gaSendEvent } from 'src/config/google';
-import { PROFILE_PICTURE, PDF_RESUME_EN, PDF_RESUME_ES } from 'src/constants/firebase';
+import { PROFILE_PICTURE, PDF_RESUME_EN } from 'src/constants/firebase';
 import Landing from 'src/components/layouts/Landing';
 import ButtonPrimary from 'src/components/common/ButtonPrimary';
 import ModalBasic from 'src/components/common/Modal';
@@ -47,10 +47,10 @@ const About = () => {
             <ButtonPrimary type="button" content={`${t('ABOUT.downloadResume.1')}`} onClick={handleOpenModal} />
             <ModalBasic isOpen={isOpen} closeModal={closeModal} Modal={Modal} btnClose={false}>
               <div className="resumes">
-                <a href={PDF_RESUME_ES} aria-label="resume in spanish" download>
+                {/* <a href={PDF_RESUME_ES} aria-label="resume in spanish" download>
                   <ButtonPrimary content={`${t('ABOUT.downloadResume.es')}`} />
-                </a>
-                <a href={PDF_RESUME_EN} aria-label="resume in english" download>
+                </a> */}
+                <a href={PDF_RESUME_EN} aria-label="resume in english" download target="_blank">
                   <ButtonPrimary content={`${t('ABOUT.downloadResume.en')}`} />
                 </a>
               </div>

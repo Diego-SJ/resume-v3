@@ -6,6 +6,6 @@ export const MX_FLAG =
 export const USA_FLAG =
   'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fen.webp?alt=media&token=001cea5c-6368-44c4-8bf1-a037d1224d2e';
 export const PDF_RESUME_EN =
-  'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Ffiles%2Fpdf%2FJuan%20Diego%20Salas%20Jime%CC%81nez%20-%20en.pdf?alt=media&token=ecac9fb9-8f83-429f-b931-a25210035c0f';
+  'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Ffiles%2Fpdf%2Fdiego%20salas%20-%20cv.pdf?alt=media&token=b36964cc-d069-44c1-a90c-70c2a65cea66';
 export const PDF_RESUME_ES =
-  'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Ffiles%2Fpdf%2FJuan%20Diego%20Salas%20Jime%CC%81nez%20-%20en.pdf?alt=media&token=ecac9fb9-8f83-429f-b931-a25210035c0f';
+  'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Ffiles%2Fpdf%2Fdiego%20salas%20-%20cv.pdf?alt=media&token=b36964cc-d069-44c1-a90c-70c2a65cea66';
