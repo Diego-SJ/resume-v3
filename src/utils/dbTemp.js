@@ -153,13 +153,13 @@ export const Skills = [
 ];
 
 export const Education = [
-  {
-    id: 1,
-    date: 'RESUME.EDUCATION.1.date',
-    title: 'RESUME.EDUCATION.1.title',
-    subtitle: 'RESUME.EDUCATION.1.subtitle',
-    description: 'RESUME.EDUCATION.1.description',
-  },
+  // {
+  //   id: 1,
+  //   date: 'RESUME.EDUCATION.1.date',
+  //   title: 'RESUME.EDUCATION.1.title',
+  //   subtitle: 'RESUME.EDUCATION.1.subtitle',
+  //   description: 'RESUME.EDUCATION.1.description',
+  // },
   {
     id: 2,
     date: 'RESUME.EDUCATION.2.date',
@@ -177,20 +177,20 @@ export const Education = [
 ];
 
 export const ProfessionalExperience = [
-  {
-    id: 1,
-    date: 'RESUME.PROFESSIONAL_EXPERIENCE.1.date',
-    title: 'RESUME.PROFESSIONAL_EXPERIENCE.1.title',
-    subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.1.subtitle',
-    description: 'RESUME.PROFESSIONAL_EXPERIENCE.1.description',
-  },
-  {
-    id: 2,
-    date: 'RESUME.PROFESSIONAL_EXPERIENCE.2.date',
-    title: 'RESUME.PROFESSIONAL_EXPERIENCE.2.title',
-    subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.2.subtitle',
-    description: 'RESUME.PROFESSIONAL_EXPERIENCE.2.description',
-  },
+  // {
+  //   id: 1,
+  //   date: 'RESUME.PROFESSIONAL_EXPERIENCE.1.date',
+  //   title: 'RESUME.PROFESSIONAL_EXPERIENCE.1.title',
+  //   subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.1.subtitle',
+  //   description: 'RESUME.PROFESSIONAL_EXPERIENCE.1.description',
+  // },
+  // {
+  //   id: 2,
+  //   date: 'RESUME.PROFESSIONAL_EXPERIENCE.2.date',
+  //   title: 'RESUME.PROFESSIONAL_EXPERIENCE.2.title',
+  //   subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.2.subtitle',
+  //   description: 'RESUME.PROFESSIONAL_EXPERIENCE.2.description',
+  // },
   {
     id: 3,
     date: 'RESUME.PROFESSIONAL_EXPERIENCE.3.date',
@@ -198,20 +198,20 @@ export const ProfessionalExperience = [
     subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.3.subtitle',
     description: 'RESUME.PROFESSIONAL_EXPERIENCE.3.description',
   },
-  {
-    id: 4,
-    date: 'RESUME.PROFESSIONAL_EXPERIENCE.4.date',
-    title: 'RESUME.PROFESSIONAL_EXPERIENCE.4.title',
-    subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.4.subtitle',
-    description: 'RESUME.PROFESSIONAL_EXPERIENCE.4.description',
-  },
-  {
-    id: 5,
-    date: 'RESUME.PROFESSIONAL_EXPERIENCE.5.date',
-    title: 'RESUME.PROFESSIONAL_EXPERIENCE.5.title',
-    subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.5.subtitle',
-    description: 'RESUME.PROFESSIONAL_EXPERIENCE.5.description',
-  },
+  // {
+  //   id: 4,
+  //   date: 'RESUME.PROFESSIONAL_EXPERIENCE.4.date',
+  //   title: 'RESUME.PROFESSIONAL_EXPERIENCE.4.title',
+  //   subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.4.subtitle',
+  //   description: 'RESUME.PROFESSIONAL_EXPERIENCE.4.description',
+  // },
+  // {
+  //   id: 5,
+  //   date: 'RESUME.PROFESSIONAL_EXPERIENCE.5.date',
+  //   title: 'RESUME.PROFESSIONAL_EXPERIENCE.5.title',
+  //   subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.5.subtitle',
+  //   description: 'RESUME.PROFESSIONAL_EXPERIENCE.5.description',
+  // },
   {
     id: 6,
     date: 'RESUME.PROFESSIONAL_EXPERIENCE.6.date',
@@ -232,6 +232,13 @@ export const ProfessionalExperience = [
     title: 'RESUME.PROFESSIONAL_EXPERIENCE.8.title',
     subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.8.subtitle',
     description: 'RESUME.PROFESSIONAL_EXPERIENCE.8.description',
+  },
+  {
+    id: 9,
+    date: 'RESUME.PROFESSIONAL_EXPERIENCE.9.date',
+    title: 'RESUME.PROFESSIONAL_EXPERIENCE.9.title',
+    subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.9.subtitle',
+    description: 'RESUME.PROFESSIONAL_EXPERIENCE.9.description',
   },
 ];
 

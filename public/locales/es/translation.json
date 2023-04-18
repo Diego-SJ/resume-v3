@@ -36,7 +36,7 @@
     },
     "languages": {
       "1": "Idiomas",
-      "2": "Español (Nativo) - Inglés (A2)"
+      "2": "Español - Inglés"
     },
     "maritalStatus": {
       "1": "Estado civil",
@@ -86,7 +86,7 @@
         "description": "Mixquiahuala de Juárez Hgo."
       },
       "3": {
-        "date": "Abr. 2021 - Actualmente",
+        "date": "Abr. 2021 - Dic. 2021",
         "title": "Certificación del idioma inglés",
         "subtitle": "Instituto Inglés Individual",
         "description": "Pachuca de Soto Hgo."
@@ -127,19 +127,25 @@
         "date": "Oct. 2020 - Abr. 2021",
         "title": "Desarrollador frontend",
         "subtitle": "Sodisa",
-        "description": "Formé parte del equipo de desarrollo frontend, implementando tecnologías como React.js, Typescript, Sass, C# y MSSQLS."
+        "description": "Formé parte del equipo de ingeniería, apoyé con la mejora del UX y UI de las aplicaciones de la empresa, eventualmente asumí el rol principal de un proyecto frontend, publiqué una aplicación embebida dentro de la tienda Shopify usando Next.js y Typescript, lo que llamó la atención de nuevos usuarios, también adquirí conocimientos de metodologías como Clean architecture y SSR."
       },
       "7": {
-        "date": "May. 2021 - Ene. 2022",
+        "date": "May. 2021 - Oct. 2021",
         "title": "Desarrollador fullstack",
-        "subtitle": "Lernit",
-        "description": "Formé parte del equipo de ingeniería, implementando tecnologías como React.js, Typescript, Express, PostgreSQL y GraphQL."
+        "subtitle": "Lapzo",
+        "description": "Formé parte del equipo de ingeniería, mejorando y manteniendo la plataforma principal, también apoyé con revisión y aprobación de código, desarrollé nuevos componentes reutilizables y mejoré la velocidad de carga de la aplicación, propuse e implementé una arquitectura más limpia y robusta en la servicio de backend con Typescript y desarrollé consultas SQL para mejorar el motor de búsqueda de la aplicación."
       },
       "8": {
-        "date": "Abr. 2021 - Actualmente",
+        "date": "Oct. 2021 - Jun. 2022",
         "title": "Desarrollador frontend",
         "subtitle": "Zenda.la",
-        "description": "Actualmente soy parte del equipo de tecnología y lider del desarrollo frontend, utilizando tecnologías como React, Typescript y Next.js."
+        "description": "Apoyé y asesoré a los miembros de mi equipo en temas de desarrollo Frontend. Reconstruí el sitio y la aplicación web, lo que mejoró el rendimiento de UX, UI y SEO, lo que al mismo tiempo mejoró la usabilidad para los usuarios finales. Fui responsable del desarrollo y mantenimiento de un CMS para brindar una mejor gestión al área de Growth, brinde soporte a la configuración de analíticas para el área de datos. Hacia el uso de tecnologías como Next.js, React, Styled components, MUI, Typescript, Redux y Ghost."
+      },
+      "9": {
+        "date": "Jun. 2022 - Presente",
+        "title": "Desarrollador frontend",
+        "subtitle": "Clara",
+        "description": "Apoyé y asesoré a los miembros de mi equipo en temas de desarrollo Frontend. Reconstruí el sitio y la aplicación web, lo que mejoró el rendimiento de UX, UI y SEO, lo que al mismo tiempo mejoró la usabilidad para los usuarios finales. Fui responsable del desarrollo y mantenimiento de un CMS para brindar una mejor gestión al área de Growth, brinde soporte a la configuración de analíticas para el área de datos. Hacia el uso de tecnologías como Next.js, React, Styled components, MUI, Typescript, Redux y Ghost."
       }
     },
     "RECOGNITIONS": {

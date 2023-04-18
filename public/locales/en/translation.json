@@ -36,7 +36,7 @@
     },
     "languages": {
       "1": "Languages",
-      "2": "Spanish (Native) - English (A2)"
+      "2": "Spanish - English"
     },
     "maritalStatus": {
       "1": "Marital status",
@@ -73,12 +73,6 @@
       "text": "Being part of a company where I can put into practice all my knowledge, to give me the opportunity to reach all my goals set, and that offers me the opportunity to grow in the area work, personal and intellectual."
     },
     "EDUCATION": {
-      "1": {
-        "date": "Aug. 2013 - Jul. 2016",
-        "title": "Programming Technician",
-        "subtitle": "Centro de Bachillerato Tecnológico Industrial y de Servicios No. 83",
-        "description": "Actopan Hgo."
-      },
       "2": {
         "date": "Aug. 2016 - Dec. 2020",
         "title": "Information Technologies and Communications Engineering",
@@ -86,7 +80,7 @@
         "description": "Mixquiahuala de Juárez Hgo."
       },
       "3": {
-        "date": "Apr. 2021 - Present",
+        "date": "Apr. 2021 - Dec. 2021",
         "title": "English language certification",
         "subtitle": "Inglés Individual Institute",
         "description": "Pachuca de Soto Hgo."
@@ -127,19 +121,25 @@
         "date": "Oct. 2020 - Apr. 2021",
         "title": "Frontend developer",
         "subtitle": "Sodisa",
-        "description": "I was part of the frontend development team implementing and interacting with technologies like React.js, Typescript, Sass, C# and MSSQLS."
+        "description": "I was part of the engineering team, I supported with the improvement of the UX and UI of the company's applications, eventually I took the lead role for a frontend project, I published an embedded application within the Shopify store using Next.js and Typescript, which caught the attention of new users, I also gained knowledge of methodologies such as clean architecture and SSR."
       },
       "7": {
-        "date": "May 2021 - Jan. 2022",
+        "date": "May 2021 - Oct. 2021",
         "title": "Fullstack developer",
-        "subtitle": "Lernit",
-        "description": "I was part of the engineering team, implementing technologies like React.js, Typescript, Express, PostgreSQL and GraphQL."
+        "subtitle": "Lapzo",
+        "description": "I was part of the engineering team, improving and maintaining the main platform, I also supported with code review and approval, I developed new reusable components and improved the loading speed of the application, I proposed and implemented a cleaner and more robust architecture in the backend service with typescript and I developed SQL queries to improve the application's search engine."
       },
       "8": {
-        "date": "Apr. 2021 - Present",
+        "date": "Oct. 2021 - Jun. 2022",
         "title": "Frontend developer",
         "subtitle": "Zenda.la",
-        "description": "I am currently part of the technology team and frontend development leader, using technologies such as React, Typescript and Next.js."
+        "description": "I supported and advised my team members on Frontend development issues. I rebuilt the site and web application which improved UX, UI and SEO performance, which at the same time improved usability for end users. I was responsible for the development and maintenance of a CMS to provide better management to the growth area, provide support for the configuration of analytics for the data area. Towards the use of technologies such as Next.js, React, Styled components, MUI, Typescript, Redux and Ghost."
+      },
+      "9": {
+        "date": "Jun. 2022 - Present",
+        "title": "Frontend engineer",
+        "subtitle": "Clara",
+        "description": "Apoyé y asesoré a los miembros de mi equipo en temas de desarrollo Frontend. Reconstruí el sitio y la aplicación web, lo que mejoró el rendimiento de UX, UI y SEO, lo que al mismo tiempo mejoró la usabilidad para los usuarios finales. Fui responsable del desarrollo y mantenimiento de un CMS para brindar una mejor gestión al área de Growth, brinde soporte a la configuración de analíticas para el área de datos. Hacia el uso de tecnologías como Next.js, React, Styled components, MUI, Typescript, Redux y Ghost."
       }
     },
     "RECOGNITIONS": {
