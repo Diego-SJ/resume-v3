@@ -197,6 +197,7 @@ export const ProfessionalExperience = [
     title: 'RESUME.PROFESSIONAL_EXPERIENCE.3.title',
     subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.3.subtitle',
     description: 'RESUME.PROFESSIONAL_EXPERIENCE.3.description',
+    url: 'https://actosoft.com.mx/frontend',
   },
   // {
   //   id: 4,
@@ -218,6 +219,7 @@ export const ProfessionalExperience = [
     title: 'RESUME.PROFESSIONAL_EXPERIENCE.6.title',
     subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.6.subtitle',
     description: 'RESUME.PROFESSIONAL_EXPERIENCE.6.description',
+    url: 'https://sodisa.com/',
   },
   {
     id: 7,
@@ -225,6 +227,7 @@ export const ProfessionalExperience = [
     title: 'RESUME.PROFESSIONAL_EXPERIENCE.7.title',
     subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.7.subtitle',
     description: 'RESUME.PROFESSIONAL_EXPERIENCE.7.description',
+    url: 'https://www.lapzo.com/',
   },
   {
     id: 8,
@@ -232,6 +235,7 @@ export const ProfessionalExperience = [
     title: 'RESUME.PROFESSIONAL_EXPERIENCE.8.title',
     subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.8.subtitle',
     description: 'RESUME.PROFESSIONAL_EXPERIENCE.8.description',
+    url: 'https://www.zenda.la/',
   },
   {
     id: 9,
@@ -239,6 +243,7 @@ export const ProfessionalExperience = [
     title: 'RESUME.PROFESSIONAL_EXPERIENCE.9.title',
     subtitle: 'RESUME.PROFESSIONAL_EXPERIENCE.9.subtitle',
     description: 'RESUME.PROFESSIONAL_EXPERIENCE.9.description',
+    url: 'https://www.clara.com',
   },
 ];
 
@@ -335,6 +340,14 @@ export const PortfolioInfo = [
     link: 'https://rickandmorty-redux-graphql.netlify.app/',
     title: 'PORTFOLIO.ITEM.15.title',
     description: 'PORTFOLIO.ITEM.15.description',
+  },
+  {
+    id: uuidv4(),
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2FPaleteriaDeliz.webp?alt=media&token=0962ea5b-0e61-4d95-af7d-0c2b5dcbffa7',
+    link: 'https://paleteria-deliz.netlify.app/admin',
+    title: `Paleteria D'eliz`,
+    description: 'React - Typescript - Supabase - Styled components - Redux',
   },
 ];
 

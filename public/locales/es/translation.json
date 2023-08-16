@@ -12,7 +12,7 @@
     "title": {
       "1": "ACERCA DE",
       "2": "SOBRE MÍ",
-      "3": "SERVICIOS"
+      "3": "Habilidades principales"
     },
     "iam": {
       "1": "Soy"
@@ -49,9 +49,9 @@
     },
     "SERVICE": {
       "title": {
-        "1": "Diseño web",
+        "1": "Diseño UI/UX",
         "2": "Desarrollo web",
-        "3": "Desarrollo móvil"
+        "3": "Desarrollo fullstack"
       },
       "description": {
         "1": "La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.",
@@ -106,7 +106,7 @@
         "description": "Desarrollo full-stack de la plataforma “App Web Lecturas” para registrar, analizar y presentar datos en materia de aprendizaje en el colegio Linus Pauling, Progreso de Obregón, Hgo. Haciendo uso de tecnologías como MySql, PHP, JQuery, HTML, Javascript y Bootstrap."
       },
       "3": {
-        "date": "Jun. 2019 - Actualmente",
+        "date": "Jun. 2019 - Dic. 2022",
         "title": "Desarrollador de software",
         "subtitle": "Actosoft Community",
         "description": "Miembro del equipo de desarrollo frontend con tecnologías como Javascript, CSS, HTML, SASS, Styled components, Typescript, React.js y Firebase para aplicaciones web. Lead Teacher en cursos brindados por Actosoft."
@@ -136,16 +136,16 @@
         "description": "Formé parte del equipo de ingeniería, mejorando y manteniendo la plataforma principal, también apoyé con revisión y aprobación de código, desarrollé nuevos componentes reutilizables y mejoré la velocidad de carga de la aplicación, propuse e implementé una arquitectura más limpia y robusta en la servicio de backend con Typescript y desarrollé consultas SQL para mejorar el motor de búsqueda de la aplicación."
       },
       "8": {
-        "date": "Oct. 2021 - Jun. 2022",
+        "date": "Oct. 2021 - Nov. 2022",
         "title": "Desarrollador frontend",
         "subtitle": "Zenda.la",
         "description": "Apoyé y asesoré a los miembros de mi equipo en temas de desarrollo Frontend. Reconstruí el sitio y la aplicación web, lo que mejoró el rendimiento de UX, UI y SEO, lo que al mismo tiempo mejoró la usabilidad para los usuarios finales. Fui responsable del desarrollo y mantenimiento de un CMS para brindar una mejor gestión al área de Growth, brinde soporte a la configuración de analíticas para el área de datos. Hacia el uso de tecnologías como Next.js, React, Styled components, MUI, Typescript, Redux y Ghost."
       },
       "9": {
-        "date": "Jun. 2022 - Presente",
+        "date": "Nov. 2022 - Presente",
         "title": "Desarrollador frontend",
         "subtitle": "Clara",
-        "description": "Actual miembro del equipo de ingeniería, soy encargado de actualizar, mejorar y dar soporte a la plataforma de backoffice de la empresa, brindo soporte a analistas de diferentes países como Brasil, Colombia y México."
+        "description": "Actualmente miembro del equipo de ingeniería, estoy a cargo de actualizar, mejorar y dar soporte a la plataforma de backoffice de la empresa, doy soporte a analistas de diferentes países como Brasil, Colombia y México. Desarrollando con tecnologías como React, Typescript, Redux, Git, Github y AWS."
       }
     },
     "RECOGNITIONS": {

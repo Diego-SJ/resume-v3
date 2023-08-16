@@ -3,13 +3,14 @@ import { Col } from 'react-grid-system';
 import { PersonalData, Services } from 'src/utils/dbTemp';
 import { useTranslation } from 'react-i18next';
 import { gaSendEvent } from 'src/config/google';
-import { PROFILE_PICTURE, PDF_RESUME_EN } from 'src/constants/firebase';
+import { PROFILE_PICTURE } from 'src/constants/firebase';
 import Landing from 'src/components/layouts/Landing';
 import ButtonPrimary from 'src/components/common/ButtonPrimary';
 import ModalBasic from 'src/components/common/Modal';
 import useModal from 'use-react-modal';
 import Section from 'src/components/layouts/Section';
 import CardService from 'src/components/common/Card/CardService';
+import PDFSource from 'src/assets/pdf/Diego Salas - en.pdf';
 import './About.scss';
 
 const About = () => {
@@ -50,7 +51,7 @@ const About = () => {
                 {/* <a href={PDF_RESUME_ES} aria-label="resume in spanish" download>
                   <ButtonPrimary content={`${t('ABOUT.downloadResume.es')}`} />
                 </a> */}
-                <a href={PDF_RESUME_EN} aria-label="resume in english" download target="_blank">
+                <a href={PDFSource} aria-label="resume in english" download target="_blank">
                   <ButtonPrimary content={`${t('ABOUT.downloadResume.en')}`} />
                 </a>
               </div>
@@ -62,7 +63,7 @@ const About = () => {
       <Section title={'ABOUT.title.3'}>
         {Services.map((service) => (
           <Col key={service.id} lg={4} md={6} sm={12} style={{ marginBottom: '3rem' }}>
-            <CardService icon={t(service.icon)} title={t(service.title)} description={t(service.description)} />
+            <CardService icon={t(service.icon)} title={t(service.title)} />
           </Col>
         ))}
       </Section>

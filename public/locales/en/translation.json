@@ -12,7 +12,7 @@
     "title": {
       "1": "ABOUT",
       "2": "ABOUT ME",
-      "3": "SERVICES"
+      "3": "MAIN SKILLS"
     },
     "iam": {
       "1": "I am"
@@ -49,9 +49,9 @@
     },
     "SERVICE": {
       "title": {
-        "1": "Web design",
+        "1": "UI/UX design",
         "2": "Web development",
-        "3": "Mobile development"
+        "3": "Fullstack development"
       },
       "description": {
         "1": "The interface must project the corporate image of the client, its essence and values must be understood beyond placing only the logo.",
@@ -100,7 +100,7 @@
         "description": "Full-stack development of the “App Web Lecturas” platform to record, analyze and present data on learning matters at the Linus Pauling school, Progreso de Obregón, Hgo. Making use of technologies like MySql, PHP, JQuery, HTML, Javascript and Bootstrap."
       },
       "3": {
-        "date": "Jun. 2019 - Present",
+        "date": "Jun. 2019 - Dec. 2022",
         "title": "Software developer",
         "subtitle": "Actosoft Community",
         "description": "Member of the frontend development team with technologies like Javascript, CSS, HTML, SASS, Styled components, Typescript, React.js and Firebase for web applications. Lead Teacher in courses provided by Actosoft."
@@ -130,16 +130,16 @@
         "description": "I was part of the engineering team, improving and maintaining the main platform, I also supported with code review and approval, I developed new reusable components and improved the loading speed of the application, I proposed and implemented a cleaner and more robust architecture in the backend service with typescript and I developed SQL queries to improve the application's search engine."
       },
       "8": {
-        "date": "Oct. 2021 - Jun. 2022",
+        "date": "Oct. 2021 - Nov. 2022",
         "title": "Frontend developer",
         "subtitle": "Zenda.la",
         "description": "I supported and advised my team members on Frontend development issues. I rebuilt the site and web application which improved UX, UI and SEO performance, which at the same time improved usability for end users. I was responsible for the development and maintenance of a CMS to provide better management to the growth area, provide support for the configuration of analytics for the data area. Towards the use of technologies such as Next.js, React, Styled components, MUI, Typescript, Redux and Ghost."
       },
       "9": {
-        "date": "Jun. 2022 - Present",
+        "date": "Nov. 2022 - Present",
         "title": "Frontend engineer",
         "subtitle": "Clara",
-        "description": "Currently a member of the engineering team, I am in charge of updating, improving and supporting the company's backoffice platform, I support analysts from different countries such as Brazil, Colombia and Mexico."
+        "description": "Currently a member of the engineering team, I am in charge of updating, improving and supporting the company's backoffice platform, I support analysts from different countries such as Brazil, Colombia and Mexico. Developing with technologies such as React, Typescript, Redux, Git, Github and AWS."
       }
     },
     "RECOGNITIONS": {
