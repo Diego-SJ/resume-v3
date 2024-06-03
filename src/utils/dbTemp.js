@@ -313,7 +313,7 @@ export const PortfolioInfo = [
     id: uuidv4(),
     image:
       'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fdeliz-app.webp?alt=media&token=0e4c557a-8ce0-47a5-941e-93ebe94c65fd',
-    link: 'https://paleteria-deliz.netlify.app/admin',
+    link: 'https://paleteria-deliz.netlify.app/',
     title: `Paleteria D'eliz`,
     description: 'React - Typescript - Supabase - Tailwind - Redux',
   },
