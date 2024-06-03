@@ -304,6 +304,30 @@ export const PortfolioInfo = [
   {
     id: uuidv4(),
     image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fenlonados-app.webp?alt=media&token=2cdb2566-1f49-43d9-b112-40433c044ddb',
+    link: 'https://enlonado-fronted.pages.dev/app/enlonados',
+    title: 'PORTFOLIO.ITEM.15.title',
+    description: 'React - TS - Vite - Tailwind - Supabase',
+  },
+  {
+    id: uuidv4(),
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fdeliz-app.webp?alt=media&token=0e4c557a-8ce0-47a5-941e-93ebe94c65fd',
+    link: 'https://paleteria-deliz.netlify.app/admin',
+    title: `Paleteria D'eliz`,
+    description: 'React - Typescript - Supabase - Tailwind - Redux',
+  },
+  {
+    id: uuidv4(),
+    image:
+      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fhappy-hop-website.webp?alt=media&token=e3c2a85e-6fc2-47ca-bb9c-74c628f972c8',
+    link: 'https://happy-hop.com/',
+    title: `Happy Hop`,
+    description: 'Astro - Typescript - Tailwind - React',
+  },
+  {
+    id: uuidv4(),
+    image:
       'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fsave365.webp?alt=media&token=0b63e9d4-5793-4546-a749-fd4e2a9c6a4f',
     link: 'https://save365.netlify.app/',
     title: 'PORTFOLIO.ITEM.17.title',
@@ -332,22 +356,6 @@ export const PortfolioInfo = [
     link: 'https://pokedex-rd.netlify.app/',
     title: 'PORTFOLIO.ITEM.16.title',
     description: 'PORTFOLIO.ITEM.16.description',
-  },
-  {
-    id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Frickmortyredux.webp?alt=media&token=cb8cf025-81af-4523-aba0-6ca298fa6266',
-    link: 'https://rickandmorty-redux-graphql.netlify.app/',
-    title: 'PORTFOLIO.ITEM.15.title',
-    description: 'PORTFOLIO.ITEM.15.description',
-  },
-  {
-    id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2FPaleteriaDeliz.webp?alt=media&token=0962ea5b-0e61-4d95-af7d-0c2b5dcbffa7',
-    link: 'https://paleteria-deliz.netlify.app/admin',
-    title: `Paleteria D'eliz`,
-    description: 'React - Typescript - Supabase - Styled components - Redux',
   },
 ];
 

@@ -1,6 +1,6 @@
 // Firebase storage
 export const PROFILE_PICTURE =
-  'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fpng%2FIMG_6782.jpeg?alt=media&token=1afad791-ca51-4034-9f31-2d44b55d743e';
+  'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fdiego-sj.webp?alt=media&token=bae3b226-1bf8-4220-b7f2-5acb7f698317';
 export const MX_FLAG =
   'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fes.webp?alt=media&token=154d9192-5984-4a2e-9e1e-db85c057c4c9';
 export const USA_FLAG =
