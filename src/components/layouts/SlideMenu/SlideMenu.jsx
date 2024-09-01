@@ -35,7 +35,7 @@ const SlideMenu = () => {
           <SidemenuItem url={Paths.ABOUT} icon="info" title="ABOUT.title.1" />
           <SidemenuItem url={Paths.RESUME} icon="book" title="RESUME.title.1" />
           <SidemenuItem url={Paths.PORTFOLIO} icon="folder" title="PORTFOLIO.title.1" />
-          <SidemenuItem url={Paths.BLOG} icon="blog" title="BLOG" />
+          {/* <SidemenuItem url={Paths.BLOG} icon="blog" title="BLOG" /> */}
           <SidemenuItem url={Paths.CONTACT} icon="phone" title="CONTACT.title.1" />
         </ul>
         <div className="legal">&copy; {t('LEGAL.madeBy')}</div>

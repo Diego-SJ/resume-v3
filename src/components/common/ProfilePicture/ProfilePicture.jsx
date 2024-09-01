@@ -1,6 +1,6 @@
 import React, { useState, memo } from 'react';
 import { Link } from 'react-router-dom';
-import { PROFILE_PICTURE } from 'src/constants/firebase';
+import ProfilePic from 'src/assets/profile.webp';
 import Paths from 'src/routes/paths';
 import './ProfilePicture.scss';
 
@@ -10,8 +10,8 @@ const ProfilePicture = () => {
   return (
     <Link to={Paths.HOME} className={`header__user ${isImageLoaded && 'load'}`}>
       <img
-        onLoad={() => setTimeout(() => setIsImageLoaded(false), 100)}
-        src={PROFILE_PICTURE}
+        onLoad={() => setTimeout(() => setIsImageLoaded(false), 0)}
+        src={ProfilePic}
         alt="Juan Diego Salas Jimenez"
         className={`header__photo ${isImageLoaded && 'd-none'}`}
       />

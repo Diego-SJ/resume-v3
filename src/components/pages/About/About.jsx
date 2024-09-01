@@ -3,7 +3,7 @@ import { Col } from 'react-grid-system';
 import { PersonalData, Services } from 'src/utils/dbTemp';
 import { useTranslation } from 'react-i18next';
 import { gaSendEvent } from 'src/config/google';
-import { PROFILE_PICTURE } from 'src/constants/firebase';
+import ProfilePic from 'src/assets/profile.webp';
 import Landing from 'src/components/layouts/Landing';
 import ButtonPrimary from 'src/components/common/ButtonPrimary';
 import ModalBasic from 'src/components/common/Modal';
@@ -27,7 +27,7 @@ const About = () => {
       <Section title={'ABOUT.title.2'}>
         <Col lg={6}>
           <div className="section-content__avatar">
-            <img src={PROFILE_PICTURE} alt="Juan Diego Salas Jimenez" title="Juan Diego Salas Jimenez" />
+            <img src={ProfilePic} alt="Juan Diego Salas Jimenez" title="Juan Diego Salas Jimenez" />
           </div>
         </Col>
         <Col lg={6}>
@@ -63,7 +63,7 @@ const About = () => {
       <Section title={'ABOUT.title.3'}>
         {Services.map((service) => (
           <Col key={service.id} lg={4} md={6} sm={12} style={{ marginBottom: '3rem' }}>
-            <CardService icon={t(service.icon)} title={t(service.title)} />
+            <CardService icon={t(service.icon)} title={t(service.title)} description={t(service.description)} />
           </Col>
         ))}
       </Section>

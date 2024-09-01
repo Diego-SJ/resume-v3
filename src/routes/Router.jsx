@@ -1,17 +1,17 @@
-import React, { lazy } from 'react';
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 // Paths
 import Paths from './paths';
 
 // Components
-const SlideMenu = lazy(() => import('src/components/layouts/SlideMenu'));
-const Blog = lazy(() => import('src/components/pages/Blog'));
-const Home = lazy(() => import('src/components/pages/Home'));
-const About = lazy(() => import('src/components/pages/About'));
-const Resume = lazy(() => import('src/components/pages/Resume'));
-const Contact = lazy(() => import('src/components/pages/Contact'));
-const Portfolio = lazy(() => import('src/components/pages/Portfolio'));
+import SlideMenu from 'src/components/layouts/SlideMenu';
+import Blog from 'src/components/pages/Blog';
+import Home from 'src/components/pages/Home';
+import About from 'src/components/pages/About';
+import Resume from 'src/components/pages/Resume';
+import Contact from 'src/components/pages/Contact';
+import Portfolio from 'src/components/pages/Portfolio';
 
 export default function Routing() {
   return (

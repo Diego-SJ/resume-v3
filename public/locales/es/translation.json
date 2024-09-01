@@ -12,7 +12,7 @@
     "title": {
       "1": "ACERCA DE",
       "2": "SOBRE MÍ",
-      "3": "Habilidades principales"
+      "3": "Mis servicios"
     },
     "iam": {
       "1": "Soy"
@@ -49,14 +49,14 @@
     },
     "SERVICE": {
       "title": {
-        "1": "Diseño UI/UX",
-        "2": "Desarrollo web",
-        "3": "Desarrollo fullstack"
+        "1": "Diseño de Interfaces UI/UX",
+        "2": "Desarrollo Web",
+        "3": "Desarrollo Fullstack"
       },
       "description": {
-        "1": "La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.",
-        "2": "La optimización del front-end como el back-end del sitio; El objetivo es controlar y optimizar el proceso de carga del sitio web.",
-        "3": "Los dispositivos móviles garantizan la practicidad que estamos buscando, por lo que es necesario que la navegación y la funcionalidad estén diseñadas para teléfonos móviles."
+        "1": "Creación de sitios web personalizados, optimizados para rendimiento y SEO, utilizando las últimas tecnologías.",
+        "2": "Diseño de interfaces intuitivas y atractivas que mejoran la experiencia del usuario y maximizan la conversión.",
+        "3": "Desarrollo completo de aplicaciones, desde el backend hasta el frontend, asegurando una integración perfecta y escalabilidad."
       }
     }
   },
@@ -304,6 +304,6 @@
     }
   },
   "LEGAL": {
-    "madeBy": "2023 por Juan Diego Salas Jimenez"
+    "madeBy": "2020 por Juan Diego Salas Jimenez"
   }
 }

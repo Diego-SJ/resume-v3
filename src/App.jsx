@@ -22,7 +22,7 @@ function App() {
         <section className="container">
           <LanguageButton />
           <Routing />
-          <ParticlesBg color="#2f353e" type="cobweb" bg />
+          <ParticlesBg color="#9c9c9c" type="cobweb" bg />
         </section>
       </I18nextProvider>
     </ToastProvider>

@@ -12,7 +12,7 @@
     "title": {
       "1": "ABOUT",
       "2": "ABOUT ME",
-      "3": "MAIN SKILLS"
+      "3": "My Services"
     },
     "iam": {
       "1": "I am"
@@ -49,14 +49,14 @@
     },
     "SERVICE": {
       "title": {
-        "1": "UI/UX design",
-        "2": "Web development",
-        "3": "Fullstack development"
+        "1": "UI/UX Design",
+        "2": "Web Development",
+        "3": "Fullstack Development"
       },
       "description": {
-        "1": "The interface must project the corporate image of the client, its essence and values must be understood beyond placing only the logo.",
-        "2": "The optimization of the front-end as the back-end of the site; The objective is to control and optimize the website loading process.",
-        "3": "Mobile devices guarantee the practicality we are looking for, so it is necessary that navigation and functionality be designed for mobile phones."
+        "1": "Design of intuitive and attractive interfaces that enhance user experience and maximize conversions.",
+        "2": "Custom website creation, optimized for performance and SEO, using the latest technologies.",
+        "3": "End-to-end application development, from backend to frontend, ensuring seamless integration and scalability."
       }
     }
   },
@@ -298,6 +298,6 @@
     }
   },
   "LEGAL": {
-    "madeBy": "2023 by Juan Diego Salas Jimenez"
+    "madeBy": "2020 by Juan Diego Salas Jimenez"
   }
 }

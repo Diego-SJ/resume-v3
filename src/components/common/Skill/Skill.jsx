@@ -18,7 +18,9 @@ const Skill = ({ title, percentage, variant = 'percentage', src = '', light = fa
       )}
       {variant === 'logo' && (
         <div className="technology" title={title}>
-          <img src={src} alt={title} className={light ? 'technology__light' : ''} />
+          <picture className="technology__pic">
+            <img src={src} alt={title} className={light ? 'technology__light' : ''} />
+          </picture>
           {/* <span className="technology__name">{title}</span> */}
         </div>
       )}

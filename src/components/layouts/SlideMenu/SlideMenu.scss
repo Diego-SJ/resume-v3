@@ -24,14 +24,13 @@
     width: 5rem;
     height: 5rem;
     display: none;
+    top: -2px;
+    right: -5rem;
 
     @media only screen and (max-width: $bp-lg) {
       display: block;
       cursor: pointer !important;
     }
-
-    top: -2px;
-    right: -5rem;
 
     & > button {
       border: none;

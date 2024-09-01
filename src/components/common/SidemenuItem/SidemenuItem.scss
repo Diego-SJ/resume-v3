@@ -16,8 +16,7 @@
     background-color: rgba($primary, 0.5);
     transform: scaleY(0);
     transform-origin: center;
-    transition: transform 0.4s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
-      background-color 0.1s;
+    transition: transform 0.4s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s, background-color 0.1s;
   }
 
   &__item:hover::before,
@@ -45,7 +44,7 @@
     text-align: center;
     color: $secondary;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: block;
     padding: 1rem 3rem;
     position: relative;

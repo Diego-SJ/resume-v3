@@ -1,5 +1,29 @@
 import { v4 as uuidv4 } from 'uuid';
 import { differenceInYears } from 'date-fns';
+import ReactSvg from '../assets/skills/react.svg';
+import NextjsSvg from '../assets/skills/nextjs.webp';
+import TypescriptSvg from '../assets/skills/ts.webp';
+import JavascriptSvg from '../assets/skills/js.webp';
+import AstroSvg from '../assets/skills/astro.webp';
+import GraphqlSvg from '../assets/skills/graphql.webp';
+import ReduxSvg from '../assets/skills/redux.webp';
+import GitSvg from '../assets/skills/git.webp';
+import TailwindSvg from '../assets/skills/tailwind.webp';
+import SassSvg from '../assets/skills/sass.webp';
+import HtmlSvg from '../assets/skills/html.webp';
+import CssSvg from '../assets/skills/css.svg';
+import ExpressSvg from '../assets/skills/express.webp';
+import NodejsSvg from '../assets/skills/nodejs.webp';
+import FigmaSvg from '../assets/skills/figma.webp';
+import FirebaseSvg from '../assets/skills/firebase.webp';
+import StyledComponentsSvg from '../assets/skills/styled-components.svg';
+import PostgresqlWebp from '../assets/skills/postgresql.webp';
+import EnlonadosWebp from '../assets/portfolio/enlonados.webp';
+import PosiffyWebp from '../assets/portfolio/posiffy.webp';
+import MorethanbooksWebp from '../assets/portfolio/more-than-books.webp';
+import HappyHopWebp from '../assets/portfolio/happy-hop.webp';
+import Save365Webp from '../assets/portfolio/save365.webp';
+import ResumeWebp from '../assets/portfolio/resume.webp';
 
 // * INFO ABOUT PAGE
 export const PersonalData = [
@@ -62,93 +86,111 @@ export const Skills = [
     id: uuidv4(),
     title: 'React',
     percentage: '90',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Freact.svg?alt=media&token=f7d71823-8896-4783-8ea0-297ca6029460',
+    src: ReactSvg,
   },
   {
     id: uuidv4(),
-    title: 'Next',
+    title: 'Next js',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fnext.svg?alt=media&token=b9d90e80-32a8-415a-a33a-a012d89e04db',
+    src: NextjsSvg,
     light: true,
   },
   {
     id: uuidv4(),
     title: 'Typescript',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Ftypescript.svg?alt=media&token=2afa083f-4aea-42a1-9dff-7b24e926d2c6',
+    src: TypescriptSvg,
   },
   {
     id: uuidv4(),
     title: 'Javascript',
     percentage: '90',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fjavascript.svg?alt=media&token=516f1670-f175-4342-90e8-6e412c464a46',
+    src: JavascriptSvg,
+  },
+  {
+    id: uuidv4(),
+    title: 'Astro',
+    percentage: '80',
+    src: AstroSvg,
   },
   {
     id: uuidv4(),
     title: 'Graphql',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fgraphql.svg?alt=media&token=746df06c-bf4b-4a04-a7aa-e33e32c8affe',
+    src: GraphqlSvg,
+  },
+  {
+    id: uuidv4(),
+    title: 'Tailwind',
+    percentage: '80',
+    src: TailwindSvg,
   },
   {
     id: uuidv4(),
     title: 'Redux',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fredux.svg?alt=media&token=4ce1f28d-484f-4291-83b4-81f94a8ea4a5',
+    src: ReduxSvg,
+  },
+  {
+    id: uuidv4(),
+    title: 'Postgresql',
+    percentage: '80',
+    src: PostgresqlWebp,
   },
   {
     id: uuidv4(),
     title: 'Git',
     percentage: '90',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fgit.svg?alt=media&token=fcc60141-6f40-42fd-8bd7-84fc94a7d238',
+    src: GitSvg,
   },
   {
     id: uuidv4(),
     title: 'Sass',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fsass.svg?alt=media&token=52c3719b-c18b-46f1-93d3-8de7b8567a3a',
+    src: SassSvg,
   },
   {
     id: uuidv4(),
     title: 'HTML',
     percentage: '90',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fhtml.svg?alt=media&token=d3e27dc7-58a5-4c81-9130-4e27b1cc9ed2',
+    src: HtmlSvg,
   },
   {
     id: uuidv4(),
     title: 'Css',
     percentage: '90',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fcss.svg?alt=media&token=b1ad80fe-fc7d-4d59-b5f0-1def14d90f7e',
+    src: CssSvg,
   },
   {
     id: uuidv4(),
     title: 'Express',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fexpressjs.svg?alt=media&token=09ed6832-22dd-485d-b3cd-68f701a36761',
+    src: ExpressSvg,
     light: true,
   },
   {
     id: uuidv4(),
-    title: 'Node',
+    title: 'Node js',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fnode.svg?alt=media&token=6824bbe7-7248-4348-abf4-31960189d8b6',
+    src: NodejsSvg,
   },
   {
     id: uuidv4(),
     title: 'Figma',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Ffigma.svg?alt=media&token=8bceba1b-7201-4e93-871e-011ba8d99045',
+    src: FigmaSvg,
   },
   {
     id: uuidv4(),
     title: 'Firebase',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Ffirebase.svg?alt=media&token=e97501b7-b136-4e89-bda1-daeb879edf1b',
+    src: FirebaseSvg,
   },
   {
     id: uuidv4(),
     title: 'Styled components',
     percentage: '80',
-    src: 'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fsvg%2Fstyled-components.svg?alt=media&token=5188bb8b-c7f3-484c-9f4b-7124366bf489',
+    src: StyledComponentsSvg,
   },
 ];
 
@@ -303,59 +345,45 @@ export const Recognitions = [
 export const PortfolioInfo = [
   {
     id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fenlonados-app.webp?alt=media&token=2cdb2566-1f49-43d9-b112-40433c044ddb',
+    image: EnlonadosWebp,
     link: 'https://enlonado-fronted.pages.dev/app/enlonados',
     title: 'PORTFOLIO.ITEM.15.title',
-    description: 'React - TS - Vite - Tailwind - Supabase',
+    description: 'React - TS - Vite - Tailwind - Postgresql - Supabase',
   },
   {
     id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fdeliz-app.webp?alt=media&token=0e4c557a-8ce0-47a5-941e-93ebe94c65fd',
-    link: 'https://paleteria-deliz.netlify.app/',
-    title: `Paleteria D'eliz`,
-    description: 'React - Typescript - Supabase - Tailwind - Redux',
+    image: PosiffyWebp,
+    link: 'https://posiffy.com/',
+    title: `Posiffy`,
+    description: 'React - Typescript - Tailwind - Redux - Postgresql - Supabase - Nextjs',
   },
   {
     id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fhappy-hop-website.webp?alt=media&token=e3c2a85e-6fc2-47ca-bb9c-74c628f972c8',
+    image: MorethanbooksWebp,
+    link: 'https://more-thant-books.netlify.app/',
+    title: 'More than books',
+    description: 'Nextjs - Typescript - Tailwind - Strapi',
+  },
+  {
+    id: uuidv4(),
+    image: HappyHopWebp,
     link: 'https://happy-hop.com/',
     title: `Happy Hop`,
     description: 'Astro - Typescript - Tailwind - React',
   },
   {
     id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fsave365.webp?alt=media&token=0b63e9d4-5793-4546-a749-fd4e2a9c6a4f',
+    image: Save365Webp,
     link: 'https://save365.netlify.app/',
     title: 'PORTFOLIO.ITEM.17.title',
     description: 'PORTFOLIO.ITEM.17.description',
   },
   {
     id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fcvra.webp?alt=media&token=a3b0f0e4-3812-4ed6-8ea8-6d2a9243d2ca',
+    image: ResumeWebp,
     link: 'https://github.com/Diego-SJ/resume-v3',
     title: 'PORTFOLIO.ITEM.11.title',
     description: 'PORTFOLIO.ITEM.11.description',
-  },
-  {
-    id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fnatours.webp?alt=media&token=ec49ca73-d63a-4079-9539-87e16a286fe1',
-    link: 'https://diego-sj.github.io/Natours-With-Sass/',
-    title: 'PORTFOLIO.ITEM.3.title',
-    description: 'PORTFOLIO.ITEM.3.description',
-  },
-  {
-    id: uuidv4(),
-    image:
-      'https://firebasestorage.googleapis.com/v0/b/test1-d2593.appspot.com/o/assets%2Fwebp%2Fpokedex.webp?alt=media&token=c71c5595-f802-48d5-ac76-8aa3104246de',
-    link: 'https://pokedex-rd.netlify.app/',
-    title: 'PORTFOLIO.ITEM.16.title',
-    description: 'PORTFOLIO.ITEM.16.description',
   },
 ];
 

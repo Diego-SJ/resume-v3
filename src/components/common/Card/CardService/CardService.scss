@@ -3,7 +3,7 @@
 .service-card {
   width: 100%;
   height: 100%;
-  padding: 2rem 2rem 1rem;
+  padding: 2rem 2rem;
   position: relative;
   overflow: hidden;
   border-radius: $br-default;
@@ -38,8 +38,8 @@
     color: $light;
     font-size: 2rem;
     position: relative;
-    // padding-bottom: 1rem;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
 
     &::after {
       content: '';
@@ -55,7 +55,7 @@
   &__description {
     font-weight: 200;
     color: $secondary;
-    line-height: 1.4;
-    font-size: 1.8rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
   }
 }

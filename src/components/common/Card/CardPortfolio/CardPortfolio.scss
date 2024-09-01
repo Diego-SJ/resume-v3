@@ -129,14 +129,13 @@
     cursor: pointer;
     animation: moveInBottom 0.3s;
     transition: all 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     &:hover {
       box-shadow: 0 0 2rem rgba($dark, 0.4);
     }
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
     &-icon {
       width: 2.5rem;
