@@ -23,7 +23,6 @@ import PosiffyWebp from '../assets/portfolio/posiffy.webp';
 import MorethanbooksWebp from '../assets/portfolio/more-than-books.webp';
 import HappyHopWebp from '../assets/portfolio/happy-hop.webp';
 import Save365Webp from '../assets/portfolio/save365.webp';
-import ResumeWebp from '../assets/portfolio/resume.webp';
 
 // * INFO ABOUT PAGE
 export const PersonalData = [
@@ -377,13 +376,6 @@ export const PortfolioInfo = [
     link: 'https://save365.netlify.app/',
     title: 'PORTFOLIO.ITEM.17.title',
     description: 'PORTFOLIO.ITEM.17.description',
-  },
-  {
-    id: uuidv4(),
-    image: ResumeWebp,
-    link: 'https://github.com/Diego-SJ/resume-v3',
-    title: 'PORTFOLIO.ITEM.11.title',
-    description: 'PORTFOLIO.ITEM.11.description',
   },
 ];
 
