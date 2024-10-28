@@ -359,7 +359,7 @@ export const PortfolioInfo = [
   {
     id: uuidv4(),
     image: MorethanbooksWebp,
-    link: 'https://more-thant-books.netlify.app/',
+    link: 'https://mtbooks.com.mx',
     title: 'More than books',
     description: 'Nextjs - Typescript - Tailwind - Strapi',
   },
