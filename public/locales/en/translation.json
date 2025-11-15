@@ -119,27 +119,27 @@
       },
       "6": {
         "date": "Oct. 2020 - Apr. 2021",
-        "title": "Frontend developer",
+        "title": "Frontend Developer",
         "subtitle": "Sodisa",
-        "description": "I was part of the engineering team, I supported with the improvement of the UX and UI of the company's applications, eventually I took the lead role for a frontend project, I published an embedded application within the Shopify store using Next.js and Typescript, which caught the attention of new users, I also gained knowledge of methodologies such as clean architecture and SSR."
+        "description": "Joined the team as frontend developer and quickly took ownership of the internal logistics system after team transition. Enhanced UI/UX and implemented real-time tracking for stock and SKUs, helping reduce product loss and improve operational visibility. Introduced clean architecture principles and improved app performance through component refactoring. Stack: React, Next.js, TypeScript, Figma, CSS Modules."
       },
       "7": {
         "date": "May 2021 - Oct. 2021",
-        "title": "Fullstack developer",
+        "title": "Fullstack Developer",
         "subtitle": "Lapzo",
-        "description": "I was part of the engineering team, improving and maintaining the main platform, I also supported with code review and approval, I developed new reusable components and improved the loading speed of the application, I proposed and implemented a cleaner and more robust architecture in the backend service with typescript and I developed SQL queries to improve the application's search engine."
+        "description": "Worked on the corporate training platform for national and international enterprise clients across diverse industries. Improved course search speed and dashboard performance using optimized SQL queries and caching. Supported backend work with Express and Hasura, improving API reliability and maintainability. Worked closely with cross-functional teams to ensure technical scalability and alignment with business goals. Stack: React, TypeScript, Express, Hasura, PostgreSQL."
       },
       "8": {
         "date": "Oct. 2021 - Nov. 2022",
-        "title": "Frontend developer",
+        "title": "Lead Frontend Developer",
         "subtitle": "Zenda.la",
-        "description": "I supported and advised my team members on Frontend development issues. I rebuilt the site and web application which improved UX, UI and SEO performance, which at the same time improved usability for end users. I was responsible for the development and maintenance of a CMS to provide better management to the growth area, provide support for the configuration of analytics for the data area. Towards the use of technologies such as Next.js, React, Styled components, MUI, Typescript, Redux and Ghost."
+        "description": "First in-house frontend engineer; rebuilt the health-insurance web app with a new UI/UX, improving usability and performance. Implemented key features: subscription management, plan upgrades, payment history, gamification, and biological-age calculator. Developed a new Next.js landing page, improving SEO and performance metrics. Created a JavaScript SDK for partners to embed insurance account access via a single script. Mentored a junior frontend engineer and worked closely with product design. Stack: Next.js, React, TypeScript, MUI, Redux, Styled Components, Ghost, Segment, GTM, GA."
       },
       "9": {
         "date": "Nov. 2022 - Present",
-        "title": "Frontend engineer",
+        "title": "Fullstack Engineer",
         "subtitle": "Clara",
-        "description": "Currently a member of the engineering team, I am in charge of updating, improving and supporting the company's backoffice platform, I support analysts from different countries such as Brazil, Colombia and Mexico. Developing with technologies such as React, Typescript, Redux, Git, Github and AWS."
+        "description": "Developing and maintaining the company's internal backoffice platform used by analysts across LATAM. Building and improving modules for Users, Cards, Reports, Transactions, and Access Control using React and TypeScript. Supporting backend development in Java (Spring Boot) and contributing to API integration efforts. Currently leading the migration from Retool to React to enhance scalability, improve performance, and reduce long-term operational costs. Stack: React, TypeScript, Java, Spring Boot, AWS, PostgreSQL, Retool."
       }
     },
     "RECOGNITIONS": {

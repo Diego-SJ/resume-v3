@@ -366,7 +366,7 @@ export const PortfolioInfo = [
   {
     id: uuidv4(),
     image: HappyHopWebp,
-    link: 'https://happy-hop.com/',
+    link: 'https://happyhop.netlify.app/',
     title: `Happy Hop`,
     description: 'Astro - Typescript - Tailwind - React',
   },
