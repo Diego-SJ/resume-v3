@@ -23,7 +23,9 @@ const TimeLine = ({ list = [] }) => {
               ) : (
                 <h4>{t(item.subtitle)}</h4>
               )}
-              <p>{t(item.description)}</p>
+              {t(item.description).split('\n\n').map((paragraph, idx) => (
+                <p key={idx}>{paragraph}</p>
+              ))}
             </div>
           </li>
         ))}
